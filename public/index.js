@@ -8,7 +8,7 @@ const shortenedLink = document.getElementById("short-link");
 const handleSubmit = async () => {
   let url = document.getElementById("URL").value;
   let short_id = "AUTO"
-  let consume_url = "http://localhost:8000/link"
+  let consume_url = "/link"
   const response = await fetch(consume_url, {
     headers: {
       "Content-Type": "application/json",
