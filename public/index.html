@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="header">Acortador de enlaces</div>
+        <form class="form" id="form">
+          <input type="text" name="URL" id="URL" value=""
+            placeholder="Escribe un enlace para acortarlo."
+          />
+          <div id="error" class="error"></div>
+          <button type="submit" id="btn" class="btn">Acortalo!</button>
+        </form>
+        <div id="link-wrapper" class="link-wrapper">
+          <h3 class="link-text">Link acortado</h3>
+          <div id="short-link" class="short-link"></div>
+        </div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
