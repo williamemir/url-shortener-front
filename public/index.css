@@ -33,7 +33,7 @@ body {
     background-image: linear-gradient(to bottom, rgb(235 222 63), rgb(243 161 5));
     border: none;
     outline: none;
-    color: white;
+    color: black;
     box-shadow: 0 3px 6px #d7a827;
   }
   
