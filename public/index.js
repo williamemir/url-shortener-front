@@ -33,7 +33,9 @@ const handleSubmit = async () => {
  // Clear input field and error message
 const clearFields = () => {
   let url = document.getElementById("URL");
+  let url_id = document.getElementById("URL_ID");
   url.value = '';
+  url_id.value = '';
   url.addEventListener('focus', () => {
     errorDiv.textContent = '';
   })
